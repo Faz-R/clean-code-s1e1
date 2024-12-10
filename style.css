@@ -5,6 +5,11 @@ body {
     font-family: Lato, sans-serif;
 }
 
+#add-task{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
 .info-block {
     width: 500px;
     margin: 0 auto;
@@ -76,7 +81,7 @@ button{
 /* Heading */
 
 .title,
-.new-task-label {
+.new-task-span {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -105,7 +110,7 @@ button{
 
 /* New Task */
 
-.new-task-label {
+.new-task-span {
     display: block;
     margin: 0 0 20px;
 }
@@ -133,7 +138,7 @@ button{
     margin: 0 10px;
 }
 
-.list-item > .task-label {
+.list-item > .task-span {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -156,7 +161,7 @@ button{
 
 /* Completed */
 
-#closed-tasks .task-label {
+#closed-tasks .task-span {
     text-decoration: line-through;
     color: #888;
 }
@@ -172,6 +177,6 @@ button{
     width: 224px;
 }
 
-.list .list-item.edit-mode .task-label {
+.list .list-item.edit-mode .task-span {
     display: none;
 }
